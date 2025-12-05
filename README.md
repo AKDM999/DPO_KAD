@@ -5,3 +5,4 @@
 
 ## Ссылки
 - [Публичная страница на GitHub Pages](https://AKDM999.github.io/DPO_KAD/)
+- [Сайт](https://akdm999.github.io/DPO_KAD/)
