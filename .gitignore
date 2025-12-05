@@ -2,6 +2,10 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows
 
 ### Windows ###
+
+# Игнорирование служебных файлов ОС 
+.DS_Store 
+
 # Windows thumbnail cache files
 Thumbs.db
 Thumbs.db:encryptable
@@ -26,5 +30,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Игнорирование логов и зависимостей 
+npm-debug.log* 
+node_modules/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows
