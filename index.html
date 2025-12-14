@@ -3,53 +3,342 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Мой сайт</title> 
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Revo Coffee - Personalized Coffee</title>
+    <meta name="description" content="Personalized coffee experience with Revo Coffee. Build your dream coffee with our premium selection.">
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
 </head> 
 
 <body> 
-    <header> 
-        <div> 
-            <h1>МойСайт</h1> 
+    <header>
+        <div class="header-background">
+            <img src="assets/img/Баннер.png" alt="Кофейные зерна и оборудование для заваривания на деревянном столе">
         </div> 
-        <nav> 
-            <ul> 
-                <li><a href="#home">Главная</a></li> 
-                <li><a href="#about">О нас</a></li> 
-                <li><a href="#services">Услуги</a></li> 
-                <li><a href="#contact">Контакты</a></li> 
-            </ul>   
-        </nav> 
+        
+        <div class="header-content">
+            <div class="left-content">
+                <img src="assets/img/LOGO.png" alt="Логотип Revo Coffee" class="logo-img">
+                <h1 class="personalized">
+                    <span>ТВОЙ</span>
+                    <span><span class="personalized-bg">УНИКАЛЬНЫЙ</span></span>
+                    <span>КОФЕ</span>
+                </h1>
+            </div>
+            
+            <div class="banner-center"></div>
+            
+            <div class="right-content">
+                <a href="#cart" class="cart-icon-large" aria-label="Корзина">
+                    <img src="assets/icons/shopping-cart-3.png" alt="Иконка Корзины">
+                </a>
+                <div class="nav-links">
+                    <a href="#features">ВОЗМОЖНОСТИ</a>
+                    <a href="#favorites">ИЗБРАННЫЕ</a>
+                    <a href="#giftset">ПОДАРОЧНЫЙ НАБОР</a>
+                    <a href="#combo">КОМБО</a>
+                    <a href="#contact">КОНТАКТЫ</a>
+                </div>
+            </div>
+        </div>
     </header> 
 
     <main> 
-        <section id="home"> 
-            <h2>Добро пожаловать!</h2> 
-            <p>Это главная страница нашего веб-приложения.</p> 
-        </section> 
+        <section class="section build-section" id="features">
+            <div class="container">
+                <div class="section-title">
+                    <h3 class="subtitle">Your Personalized Coffee</h3>
+                    <h2 class="title">BUILD YOUR DREAM COFFEE</h2>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="assets/icons/ic.png" alt="Origin Icon - coffee beans">
+                        </div>
+                        <h3 class="feature-title">Origin</h3>
+                        <p>Arabica and Robusta coffee beans that meet quality standards.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="assets/icons/IC%20(1).png" alt="Quality Icon - star shape">
+                        </div>
+                        <h3 class="feature-title">Quality</h3>
+                        <p>Each coffee bean is a process of intense focus by coffee artisans.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="assets/icons/IC%20(2).png" alt="Bean Types Icon - different bean shapes">
+                        </div>
+                        <h3 class="feature-title">Bean Types</h3>
+                        <p>70% of coffee cup quality comes from origin and green bean quality.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="assets/icons/IC%20(3).png" alt="Brewing Icon - coffee pot">
+                        </div>
+                        <h3 class="feature-title">Brewing</h3>
+                        <p>Coffee beans are transformed through strict roasting process.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     
-        <section id="about"> 
-            <h2>О нас</h2> 
-            <p>Мы компания, которая занимается созданием качественных веб-решений.</p> 
-        </section> 
-
-        <section id="services"> 
-            <h2>Наши услуги</h2> 
-            <ul> 
-                <li>Веб-разработка</li> 
-                <li>Дизайн</li> 
-                <li>Консультации</li> 
-            </ul> 
-        </section> 
-
-        <section id="contact"> 
-        <h2>Контакты</h2> 
-        <p>Email: alex9999687496"gmail.com</p> 
-        <p>Телефон: +7 (999) 968-74-96</p> 
-        </section> 
+        <!-- Choose Your Favorite Section -->
+        <section class="section favorite-section bg-gray" id="favorites">
+            <div class="container">
+                <div class="section-title">
+                    <h3 class="subtitle">Choose Your Favorite</h3>
+                    <h2 class="title">STANDARD TASTE — RIGHT FLAVOR</h2>
+                </div>
+                
+                <div class="products-grid">
+                    <!-- Product 1.1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/img/IMAGE.png" alt="REVO Morning coffee package">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-price">99.000</div>
+                            <div class="product-name">REVO Morning</div>
+                            <div class="product-flavor">bitter, sweet aftertaste, floral aroma</div>
+                            <div class="product-actions">
+                                <a href="#cart" class="btn btn-primary" aria-label="Buy REVO Morning coffee">BUY NOW</a>
+                                <a href="#details-morning" class="btn btn-outline" aria-label="View details for REVO Morning coffee">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 1.2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/img/IMAGE%20(2).png" alt="REVO Everyday coffee package">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-price">85.000</div>
+                            <div class="product-name">REVO Everyday</div>
+                            <div class="product-flavor">balanced, bitter aftertaste, chocolate flavor</div>
+                            <div class="product-actions">
+                                <a href="#cart" class="btn btn-primary" aria-label="Buy REVO Everyday coffee">BUY NOW</a>
+                                <a href="#details-everyday" class="btn btn-outline" aria-label="View details for REVO Everyday coffee">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 2.1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/img/image%20(1).png" alt="REVO Origin coffee package">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-price">139.000</div>
+                            <div class="product-name">REVO Origin</div>
+                            <div class="product-flavor">sweet aftertaste, less bitter, strawberry sour taste</div>
+                            <div class="product-actions">
+                                <a href="#cart" class="btn btn-primary" aria-label="Buy REVO Origin coffee">BUY NOW</a>
+                                <a href="#details-origin" class="btn btn-outline" aria-label="View details for REVO Origin coffee">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 2.2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/img/IMAGE%20(3).png" alt="REVO Bold coffee package">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-price">75.000</div>
+                            <div class="product-name">REVO Bold</div>
+                            <div class="product-flavor">rich, bitter, traditional</div>
+                            <div class="product-actions">
+                                <a href="#cart" class="btn btn-primary" aria-label="Buy REVO Bold coffee">BUY NOW</a>
+                                <a href="#details-bold" class="btn btn-outline" aria-label="View details for REVO Bold coffee">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Giftset Section -->
+        <section class="section giftset-section" id="giftset">
+            <div class="container">
+                <div class="giftset-header">
+                    <div class="subtitle">Best Gift For Best Friend</div>
+                    <h2 class="title">GIFTSET</h2>
+                </div>
+                
+                <div class="giftset-container">
+                    <div class="giftset-image">
+                        <div class="giftset-img">
+                            <img src="assets/img/pr-0018-r.png" alt="Giftset Vietnamese Phin Coffee package">
+                        </div>
+                    </div>
+                    <div class="giftset-content">
+                        <div class="product-price">285.000</div>
+                        <div class="giftset-description">
+                            <p>Giftset «Vietnamese Phin Coffee» — The perfect gift for coffee connoisseurs. Coffee beans are carefully selected by Revo, roasted and ground using technology and secrets learned from famous artisans, along with the love and passion of coffee makers, creating pure cups of coffee made just for you.</p>
+                        </div>
+                        <div class="giftset-features">
+                            <div class="giftset-feature">
+                                <div class="feature-icon-small">
+                                    <img src="assets/icons/IC_coffee.png" alt="Coffee bean icon">
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Bean Type</h4>
+                                    <p>Fine Robusta Blend</p>
+                                </div>
+                            </div>
+                            <div class="giftset-feature">
+                                <div class="feature-icon-small">
+                                    <img src="assets/icons/IC_Mountain.png" alt="Mountain icon representing altitude">
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Altitude</h4>
+                                    <p>700–800 m</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#cart" class="btn btn-primary" aria-label="Buy Giftset Vietnamese Phin Coffee">BUY NOW</a>
+                            <a href="#details-giftset" class="btn btn-outline" aria-label="View details for Giftset Vietnamese Phin Coffee">DETAILS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Combo Section -->
+        <section class="section combo-section bg-gray" id="combo">
+            <div class="container">
+                <div class="section-title">
+                    <h3 class="subtitle">Your Personalized Coffee</h3>
+                    <h2 class="title">COMBO PHIN COFFEE</h2>
+                </div>
+                
+                <div class="combo-grid">
+                    <!-- Combo 1 -->
+                    <div class="combo-card">
+                        <div class="combo-image">
+                            <img src="assets/img/image%20(6).png" alt="Combo Revo Bold coffee package">
+                        </div>
+                        <div class="combo-content">
+                            <div class="combo-price">
+                                <span class="current-price">147.000</span>
+                                <span class="old-price">155.000</span>
+                            </div>
+                            <div class="combo-name">Combo Revo Bold</div>
+                            <div class="combo-description">
+                                The caffeine content in Revo Bold is strong enough to keep you alert for work
+                            </div>
+                            <div class="product-actions">
+                                <a href="#cart" class="btn btn-primary" aria-label="Buy Combo Revo Bold">BUY NOW</a>
+                                <a href="#details-combo1" class="btn btn-outline" aria-label="View details for Combo Revo Bold">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Combo 2 -->
+                    <div class="combo-card">
+                        <div class="combo-image">
+                            <img src="assets/img/image%20(7).png" alt="Combo Revo Everyday coffee package">
+                        </div>
+                        <div class="combo-content">
+                            <div class="combo-price">
+                                <span class="current-price">156.000</span>
+                                <span class="old-price">165.000</span>
+                            </div>
+                            <div class="combo-name">Combo Revo Everyday</div>
+                            <div class="combo-description">
+                                Revo Everyday is blended between the bitterness of Robusta beans and the aroma
+                            </div>
+                            <div class="product-actions">
+                                <a href="#cart" class="btn btn-primary" aria-label="Buy Combo Revo Everyday">BUY NOW</a>
+                                <a href="#details-combo2" class="btn btn-outline" aria-label="View details for Combo Revo Everyday">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Combo 3 -->
+                    <div class="combo-card">
+                        <div class="combo-image">
+                            <img src="assets/img/image%20(8).png" alt="Combo Revo Honey coffee package">
+                        </div>
+                        <div class="combo-content">
+                            <div class="combo-price">
+                                <span class="current-price">275.000</span>
+                                <span class="old-price">260.000</span>
+                            </div>
+                            <div class="combo-name">Combo Revo Honey</div>
+                            <div class="combo-description">
+                                Honey — in the name Revo Honey comes from the processing method of Arabica beans
+                            </div>
+                            <div class="product-actions">
+                                <a href="#cart" class="btn btn-primary" aria-label="Buy Combo Revo Honey">BUY NOW</a>
+                                <a href="#details-combo3" class="btn btn-outline" aria-label="View details for Combo Revo Honey">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Contact Section -->
+        <section class="section section-highlight" id="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h3 class="subtitle">Get in Touch</h3>
+                    <h2 class="title">CONTACT US</h2>
+                </div>
+                <div style="text-align: center; color: var(--color-gray-dark);">
+                    <p>Revo Coffee Vietnam — 2018</p>
+                    <p>Email: info@revo-coffee.com</p>
+                    <p>Phone: +84 123 456 789</p>
+                    <p>Address: 123 Coffee Street, Hanoi, Vietnam</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Cart Section (скрытая, для якорных ссылок) -->
+        <section id="cart" class="visually-hidden">
+            <h2>Shopping Cart</h2>
+            <p>Your cart is currently empty.</p>
+        </section>
+    
+        <!-- Detail Sections (скрытые, для якорных ссылок) -->
+        <section id="details-morning" class="visually-hidden">
+            <h2>REVO Morning Details</h2>
+        </section>
+        <section id="details-everyday" class="visually-hidden">
+            <h2>REVO Everyday Details</h2>
+        </section>
+        <section id="details-origin" class="visually-hidden">
+            <h2>REVO Origin Details</h2>
+        </section>
+        <section id="details-bold" class="visually-hidden">
+            <h2>REVO Bold Details</h2>
+        </section>
+        <section id="details-giftset" class="visually-hidden">
+            <h2>Giftset Details</h2>
+        </section>
+        <section id="details-combo1" class="visually-hidden">
+            <h2>Combo Revo Bold Details</h2>
+        </section>
+        <section id="details-combo2" class="visually-hidden">
+            <h2>Combo Revo Everyday Details</h2>
+        </section>
+        <section id="details-combo3" class="visually-hidden">
+            <h2>Combo Revo Honey Details</h2>
+        </section>
     </main> 
     <footer> 
-        <p>&copy; 2025 Сайт. Все права защищены.</p> 
+        <div class="container">
+            <p>© Revo Coffee Vietnam — 2018</p>
+            <p style="margin-top: 10px; font-size: 14px;">
+                <a href="#home" style="color: var(--color-primary); text-decoration: none;">Back to Top ↑</a>
+            </p>
+        </div>
     </footer>
  </body> 
 
