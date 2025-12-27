@@ -869,8 +869,8 @@ body {
 
 /* ==================== Breakpoints ==================== */
 
-/* Планшеты в альбомной ориентации (меньше 992px) */
-@media (max-width: 68rem) {
+/* Ноутбуки (меньше 1024px) */
+@media (max-width: 64rem) {
     .container {
         max-width: 90%;
     }
@@ -1015,8 +1015,8 @@ body {
     }
 }
 
-/* Мобильные (меньше 576px) */
-@media (max-width: 36rem) {
+/* Мобильные (меньше 425px) */
+@media (max-width: 26.5rem) {
     .container {
         padding: 0 var(--spacing-sm);
     }
