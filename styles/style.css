@@ -1199,7 +1199,7 @@ body {
 }
 
 /* Поддержка контрастности (в настройках браузера) */
-@media (prefers-contrast: high) {
+@media (prefers-contrast: more) {
     :root {
         --color-primary: #8B5A2B;
         --color-dark: #000000;
