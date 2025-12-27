@@ -1016,7 +1016,7 @@ body {
 }
 
 /* Мобильные (меньше 425px) */
-@media (max-width: 27rem) {
+@media (max-width: 26.5625rem) {
     .container {
         padding: 0 var(--spacing-sm);
     }
@@ -1199,7 +1199,7 @@ body {
 }
 
 /* Поддержка контрастности (в настройках браузера) */
-@media (prefers-contrast: high) {
+@media (prefers-contrast: more) {
     :root {
         --color-primary: #8B5A2B;
         --color-dark: #000000;
