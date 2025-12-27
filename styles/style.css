@@ -1016,7 +1016,7 @@ body {
 }
 
 /* Мобильные (меньше 425px) */
-@media (max-width: 27rem) {
+@media (max-width: 26.5625rem) {
     .container {
         padding: 0 var(--spacing-sm);
     }
